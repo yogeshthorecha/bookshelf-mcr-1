@@ -1,0 +1,97 @@
+.landing-nav{
+    padding: 10px;
+    background-color: rgb(7, 160, 7);
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+a{
+    margin-right: 30px;
+    font-size: larger;
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+.books-page ul{
+    list-style: none;
+    margin-left: -40px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+ul li{
+    text-align: center;
+}
+ul h1{
+    margin-bottom: 30px;
+}
+.books-page{
+    padding: 10px;
+}
+.book-card{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+.book-card img{
+    width: 200px;
+    height: 200px;
+}
+.book-card li{
+    padding: 10px;
+    box-shadow: 5px 0 5px 0 grey;
+}
+li p {
+    color:grey;
+}
+.dropdown-icon .icon{
+    position: absolute;
+    color: green;
+    margin-left:155px;
+    margin-top:-50px;
+    padding: 0;
+    display: flex;
+    background-color:white;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.options-dropdown{
+    position: absolute;
+    background-color: green;
+    color:white;
+    box-shadow: 0 0 25px 0 grey;
+    margin-left: 45px;
+    border: 2px solid white;
+}
+.options-dropdown::before{
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    content:"";
+    position:absolute;
+    top:-12px;
+    right: 20px;
+    height: 20px;
+    width: 20px;
+    background: green;
+    transform: rotate(45deg);
+}
+.options-dropdown p{
+    border-top: 1px solid white;
+    padding: 5px 15px;
+    color:white;
+}
+.options-dropdown h5{
+    font-weight:400;
+    padding: 5px;
+}
+.options-dropdown p:hover{
+    background-color: white;
+    color:black;
+    cursor: pointer;
+}
